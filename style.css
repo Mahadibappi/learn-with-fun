@@ -27,6 +27,10 @@ body {
   font-size: 1rem;
 }
 
+.padding {
+  padding-left: 310px;
+}
+
 @media screen and (max-width: 768px) {
   .carousel-caption {
     bottom: 50px;
@@ -37,5 +41,8 @@ body {
   }
   .carousel-item p {
     font-size: 0.75rem;
+  }
+  .padding {
+    padding-left: 95px;
   }
 }
