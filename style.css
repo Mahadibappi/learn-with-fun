@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@700&family=PT+Sans&family=Poppins:wght@300;500&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,700;1,300&family=Tiro+Devanagari+Hindi&family=Tiro+Devanagari+Sanskrit&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(156, 154, 154);
+}
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background: rebeccapurple;
+}
+.carousel-caption {
+  bottom: 250px;
+}
+
+.carousel-item h5 {
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+.carousel-item p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    bottom: 100px;
+  }
+  .carousel-item h5 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+  }
+  .carousel-item p {
+    font-size: 0.75rem;
+  }
+}
